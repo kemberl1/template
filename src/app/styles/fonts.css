@@ -1,0 +1,25 @@
+@layer base {
+  @font-face {
+    font-family: 'Open Sans';
+    src:
+      local('Open Sans Regular'),
+      local('OpenSans-Regular'),
+      url('../../shared/assets/fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('../../shared/assets/fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src:
+      local('Open Sans Bold'),
+      local('OpenSans-Bold'),
+      url('../../shared/assets/fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('../../shared/assets/fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+}
